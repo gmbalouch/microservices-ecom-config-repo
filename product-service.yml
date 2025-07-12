@@ -9,7 +9,7 @@ spring:
       enabled: true
 
   datasource:
-    url: jdbc:mysql://localhost:3306/productdb?createDatabaseIfNotExist=true
+    url: jdbc:mysql://product-db:3306/productdb?createDatabaseIfNotExist=true
     username: root
     password: gmbaloch123$
     driver-class-name: com.mysql.cj.jdbc.Driver
